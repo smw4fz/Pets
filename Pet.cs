@@ -17,9 +17,9 @@ namespace Application
             this.weight = weight;
         } //end Pet method
 
-        public void GetTag(string owner)
+        public string GetTag()
         {
-           Console.WriteLine("If lost call " + owner); 
+            return "If lost, call " + owner;
         }
 
     } // end Class Pet

@@ -19,7 +19,7 @@ namespace Pets
 
             Console.WriteLine("Name: " + dog1.name);
             Console.WriteLine("Weight: " + dog1.weight);
-            Console.WriteLine(dog1.getTag());
+            Console.WriteLine(dog1.GetTag());
             Console.WriteLine(dog1.bark(4));
 
             Console.WriteLine("");
@@ -28,8 +28,9 @@ namespace Pets
 
             Console.WriteLine("Name: " + cat1.name);
             Console.WriteLine("Weight: " + cat1.weight);
-            Console.WriteLine(cat1.getTag());
+            Console.WriteLine(cat1.GetTag());
             Console.WriteLine(cat1.meow(3));
+
         }
     }
 }
